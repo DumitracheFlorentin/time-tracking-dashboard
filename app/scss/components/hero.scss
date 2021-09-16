@@ -1,0 +1,59 @@
+.hero {
+  &__container {
+    &__profile {
+      &__details {
+        &__photo {
+          img {
+          }
+        }
+
+        &__credit {
+          &__who {
+          }
+
+          &__name {
+          }
+        }
+      }
+
+      &__filter {
+        &__text {
+        }
+
+        .daily {
+        }
+
+        .weekly {
+        }
+
+        .monthly {
+        }
+      }
+    }
+
+    &__statistics {
+      &__card {
+        img {
+        }
+
+        &__info {
+          &__header {
+            &__title {
+            }
+
+            img {
+            }
+          }
+
+          &__details {
+            &__current {
+            }
+
+            &__previous {
+            }
+          }
+        }
+      }
+    }
+  }
+}
