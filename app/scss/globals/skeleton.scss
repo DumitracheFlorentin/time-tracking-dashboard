@@ -1,3 +1,5 @@
+@use '../util' as *;
+
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -14,4 +16,8 @@ body {
   min-height: 900px;
   margin: 0;
   padding: 0;
+
+  @include breakpoint-down(medium) {
+    min-height: 1460px;
+  }
 }
