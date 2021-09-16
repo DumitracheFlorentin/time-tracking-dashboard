@@ -9,64 +9,151 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./dist/css/style.css">  
     
-    <title>Frontend Skeleton</title>
+    <title>Time Tracking Dashboard</title>
 </head>
 <body>
-    Report for
-    Jeremy Robson
-  
-    Daily
-    Weekly
-    Monthly
-  
-    Work
-    5hrs <!-- daily -->
-    Previous - 7hrs <!-- daily -->
-    32hrs <!-- weekly -->
-    Previous - 36hrs <!-- weekly -->
-    103hrs <!-- monthly -->
-    Previous - 128hrs <!-- monthly -->
-  
-    Play
-    1hr <!-- daily -->
-    Previous - 2hrs <!-- daily -->
-    10hrs <!-- weekly -->
-    Previous - 8hrs <!-- weekly -->
-    23hrs <!-- monthly -->
-    Previous - 29hrs <!-- monthly -->
-  
-    Study
-    0hrs <!-- daily -->
-    Previous - 1hr <!-- daily -->
-    4hrs <!-- weekly -->
-    Previous - 7hrs <!-- weekly -->
-    13hrs <!-- monthly -->
-    Previous - 19hrs <!-- monthly -->
-  
-    Exercise
-    1hr <!-- daily -->
-    Previous - 1hr <!-- daily -->
-    4hrs <!-- weekly -->
-    Previous - 5hrs <!-- weekly -->
-    11hrs <!-- monthly -->
-    Previous - 18hrs <!-- monthly -->
-  
-    Social
-    1hr <!-- daily -->
-    Previous - 3hrs <!-- daily -->
-    5hrs <!-- weekly -->
-    Previous - 10hrs <!-- weekly -->
-    21hrs <!-- monthly -->
-    Previous - 23hrs <!-- monthly -->
-  
-    Self Care
-    0hrs <!-- daily -->
-    Previous - 1hr <!-- daily -->
-    2hrs <!-- weekly -->
-    Previous - 2hrs <!-- weekly -->
-    7hrs <!-- monthly -->
-    Previous - 11hrs <!-- monthly -->
+    <main class="hero">
+        <div class="hero__container">
+            <section class="hero__container__profile">
+                <div class="hero__container__details">
+                    <div class="hero__container__details__photo">
+                        <img src="./images/image-jeremy.png" alt="image profile">
+                    </div>
+                    <div class="hero__container__details__credit">
+                        <p class="hero__container__details__credit__who">Report for</p>
+                        <h3 class="hero__container__details__credit__name">Jeremy Robson</h3>
+                    </div>
+                </div>
+                <div class="hero__container__filter">
+                    <p class="hero__container__filter__text daily">Daily</p>
+                    <p class="hero__container__filter__text weekly">Weekly</p>
+                    <p class="hero__container__filter__text monthly">Monthly</p>
+                </div>
+            </section>
+            <section class="hero__container__statistics">
+                <div class="hero__container__statistics__card">
+                    <img src="./images/icon-work.svg" alt="work image">
+                    <div class="hero__container__statistics__card__info">
+                        <div class="hero__container__statistics__card__info__header">
+                            <h4 class="hero__container__statistics__card__info__header__title">
+                                Work
+                            </h4>
+                            <img src="./images/icon-ellipsis.svg" alt="ellipsis">
+                        </div>
+                        <div class="hero__container__statistics__card__info__details">
+                            <h3 class="hero__container__statistics__card__info__details__current">
+                                32hrs
+                            </h3>
+                            <h3 class="hero__container__statistics__card__info__details__previous">
+                                Last Week - 36hrs
+                            </h3>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="hero__container__statistics__card">
+                    <img src="./images/icon-play.svg" alt="play image">
+                    <div class="hero__container__statistics__card__info">
+                        <div class="hero__container__statistics__card__info__header">
+                            <h4 class="hero__container__statistics__card__info__header__title">
+                                Play
+                            </h4>
+                            <img src="./images/icon-ellipsis.svg" alt="ellipsis">
+                        </div>
+                        <div class="hero__container__statistics__card__info__details">
+                            <h3 class="hero__container__statistics__card__info__details__current">
+                                10hrs
+                            </h3>
+                            <h3 class="hero__container__statistics__card__info__details__previous">
+                                Last Week - 8hrs
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero__container__statistics__card">
+                    <img src="./images/icon-study.svg" alt="study image">
+                    <div class="hero__container__statistics__card__info">
+                        <div class="hero__container__statistics__card__info__header">
+                            <h4 class="hero__container__statistics__card__info__header__title">
+                                Study
+                            </h4>
+                            <img src="./images/icon-ellipsis.svg" alt="ellipsis">
+                        </div>
+                        <div class="hero__container__statistics__card__info__details">
+                            <h3 class="hero__container__statistics__card__info__details__current">
+                                4hrs
+                            </h3>
+                            <h3 class="hero__container__statistics__card__info__details__previous">
+                                Last Week - 7hrs
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero__container__statistics__card">
+                    <img src="./images/icon-exercise.svg" alt="exercise image">
+                    <div class="hero__container__statistics__card__info">
+                        <div class="hero__container__statistics__card__info__header">
+                            <h4 class="hero__container__statistics__card__info__header__title">
+                                Exercise
+                            </h4>
+                            <img src="./images/icon-ellipsis.svg" alt="ellipsis">
+                        </div>
+                        <div class="hero__container__statistics__card__info__details">
+                            <h3 class="hero__container__statistics__card__info__details__current">
+                                4hrs
+                            </h3>
+                            <h3 class="hero__container__statistics__card__info__details__previous">
+                                Last Week - 5hrs
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero__container__statistics__card">
+                    <img src="./images/icon-social.svg" alt="social image">
+                    <div class="hero__container__statistics__card__info">
+                        <div class="hero__container__statistics__card__info__header">
+                            <h4 class="hero__container__statistics__card__info__header__title">
+                                Social
+                            </h4>
+                            <img src="./images/icon-ellipsis.svg" alt="ellipsis">
+                        </div>
+                        <div class="hero__container__statistics__card__info__details">
+                            <h3 class="hero__container__statistics__card__info__details__current">
+                                5hrs
+                            </h3>
+                            <h3 class="hero__container__statistics__card__info__details__previous">
+                                Last Week - 10hrs
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero__container__statistics__card">
+                    <img src="./images/icon-self-care.svg" alt="self care image">
+                    <div class="hero__container__statistics__card__info">
+                        <div class="hero__container__statistics__card__info__header">
+                            <h4 class="hero__container__statistics__card__info__header__title">
+                                Self Care
+                            </h4>
+                            <img src="./images/icon-ellipsis.svg" alt="ellipsis">
+                        </div>
+                        <div class="hero__container__statistics__card__info__details">
+                            <h3 class="hero__container__statistics__card__info__details__current">
+                                2hrs
+                            </h3>
+                            <h3 class="hero__container__statistics__card__info__details__previous">
+                                Last Week - 2hrs
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
 
     <script src="dist/js/script.js"></script>
 </body>
